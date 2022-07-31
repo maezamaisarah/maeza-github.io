@@ -1,0 +1,83 @@
+/*-----------------------------------
+  #style.css
+-----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Patrick+Hand&display=swap');
+
+/*Home Section*/
+*
+{     
+    padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background: #ecc091;
+  background-size: 200%;
+  background-position: center;
+  font-family: sans-serif;
+}
+.menu-bar
+{
+  background: #bb6536;
+  text-align: center;
+}
+
+.menu-bar ul
+{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+
+.menu-bar ul li
+{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.menu-bar ul li a
+{
+  text-decoration: none;
+  color: #fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+  background: #ecc091;
+  border-radius:3px;
+}
+
+.menu-bar .fa
+{
+  margin-right:8px;
+}
+
+.sub-menu
+{
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu
+{
+    display: block;
+  position: absolute;
+    background: rgb(194,219,251);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.text-1 h2
+{
+  text-align: center;
+}
+
+.quotes1
+{
+  max-width:300px;
+  margin: 100;
+  padding-left: 120px;
+  padding-right: 20px;
+}
